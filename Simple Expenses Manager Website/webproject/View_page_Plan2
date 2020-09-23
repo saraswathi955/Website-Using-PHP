@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login to Control Budget</title>
+		<!-- link to Bootstrap minified css-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- link to Jquery minified-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- link to Bootstrap JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- link to external CSS -->
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<div class="container panel-margin">
+            <div class="col-md-6 col-md-offset-0">
+                <h4>Your Plans</h4>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" style="text-align: center;">Trip to Delhi<span class="glyphicon glyphicon-user" style="float: right;"></span></h3>
+                </div>
+                <div class="panel-body">
+                    <form method="post">
+
+                            <table class="table table-hover">
+                                <tr>
+                                    <th>Budget</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <th>Remaining Amount</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <th>Date</th>
+                                    <th></th>
+                                </tr>
+                            </table>
+                    </form>
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Model Heahing</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <table class="table table-hover">
+                    <tr>
+                        <th>Amount</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Paid by</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Paid on</th>
+                        <th></th>
+                    </tr>
+                </table>
+                  
+                </div>
+                
+                <button type="button" class="btn btn-primary">You Don't bill</button>
+                
+              </div>
+            </div>
+          </div>
+
+	</body>
+</html>
